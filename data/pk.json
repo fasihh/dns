@@ -1,12 +1,22 @@
 {
-  "zones": {
-    "edu.pk": {
-      "ns": "127.0.0.1:5302"
-    }
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5301
   },
-  "records": {
-    "ns.pk": [
-      { "type": "A", "value": "127.0.0.1", "ttl": 60 }
-    ]
+  "state": {
+    "zones": {
+      "edu.pk": {
+        "ns": "127.0.0.1:5302"
+      }
+    },
+    "records": {
+      "ns.pk": [
+        {
+          "type": "A",
+          "value": "127.0.0.1",
+          "ttl": 60
+        }
+      ]
+    }
   }
 }

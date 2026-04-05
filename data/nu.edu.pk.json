@@ -1,21 +1,51 @@
 {
-  "zones": {},
-  "records": {
-    "flex.nu.edu.pk": [
-      { "type": "A", "value": "10.10.10.50", "ttl": 60 },
-      { "type": "MX", "value": "mail.nu.edu.pk", "ttl": 120 }
-    ],
-    "mail.nu.edu.pk": [
-      { "type": "A", "value": "10.10.10.60", "ttl": 60 }
-    ],
-    "api.nu.edu.pk": [
-      { "type": "A", "value": "10.10.10.51", "ttl": 60 }
-    ],
-    "www.nu.edu.pk": [
-      { "type": "A", "value": "10.10.10.52", "ttl": 60 }
-    ],
-    "ns.nu.edu.pk": [
-      { "type": "A", "value": "127.0.0.1", "ttl": 60 }
-    ]
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5303
+  },
+  "state": {
+    "zones": {},
+    "records": {
+      "flex.nu.edu.pk": [
+        {
+          "type": "A",
+          "value": "10.10.10.50",
+          "ttl": 60
+        },
+        {
+          "type": "MX",
+          "value": "mail.nu.edu.pk",
+          "ttl": 120
+        }
+      ],
+      "mail.nu.edu.pk": [
+        {
+          "type": "A",
+          "value": "10.10.10.60",
+          "ttl": 60
+        }
+      ],
+      "api.nu.edu.pk": [
+        {
+          "type": "A",
+          "value": "10.10.10.51",
+          "ttl": 60
+        }
+      ],
+      "www.nu.edu.pk": [
+        {
+          "type": "A",
+          "value": "10.10.10.52",
+          "ttl": 60
+        }
+      ],
+      "ns.nu.edu.pk": [
+        {
+          "type": "A",
+          "value": "127.0.0.1",
+          "ttl": 60
+        }
+      ]
+    }
   }
 }
